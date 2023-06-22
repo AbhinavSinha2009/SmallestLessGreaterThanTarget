@@ -1,4 +1,8 @@
 class Solution {
+    public static void main(String[] args){
+        char[] letters = {'a', 'a', 'b', 'f', 'x', 'z'};
+        System.out.println(nextGreatestLetter(letters, 'h');
+    }
     public char nextGreatestLetter(char[] letters, char target) {
         if(target>=letters[letters.length-1]){
             return letters[0];
